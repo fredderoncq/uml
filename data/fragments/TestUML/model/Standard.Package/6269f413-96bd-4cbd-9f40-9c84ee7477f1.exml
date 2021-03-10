@@ -23,7 +23,11 @@
         <COMPID name="Actor2" mc="Standard.Actor" uid="de220f8a-6563-4273-8178-fa04e315f506"/>
         <COMPID name="Achete un truc" mc="Standard.UseCase" uid="0601ddb0-af5f-45b2-97ac-76eeb2d58e56"/>
         <COMPID name="Virginie" mc="Standard.Actor" uid="4056f916-b6b7-4a5e-9b41-ba1a9380e80e"/>
+<<<<<<< HEAD
         <COMPID name="Nom" mc="Standard.Actor" uid="0d6c5d00-a0ce-4a14-ac15-902b7c8193e6"/>
+=======
+        <COMPID name="Gustave" mc="Standard.Actor" uid="d18d27d6-ab4b-4c15-8692-f2bc44321573"/>
+>>>>>>> 844f9f74050a8302505911bd009eee41b6b25b48
       </COMP>
       <COMP relation="Product">
         <COMPID name="Diagramme de cas d'utilisation testuml" mc="Standard.UseCaseDiagram" uid="d900404e-120f-44d1-bb6e-e95daa0f01c7"/>
