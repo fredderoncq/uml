@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.0" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
 	<xmi:Documentation exporter="StarUML" exporterVersion="2.0"/>
-	<uml:Model xmi:id="AAAAAAF4HcCWfleI+yw=" xmi:type="uml:Model" name="RootModel">
+	<uml:Model xmi:id="AAAAAAF4HcOe5lflWvk=" xmi:type="uml:Model" name="RootModel">
 		<packagedElement xmi:id="AAAAAAFFxl38KT9O4MM=" name="Scenarios" visibility="public" xmi:type="uml:Model">
 			<packagedElement xmi:id="AAAAAAF4Hb/F6lXhLhI=" name="Vendeur" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Actor">
 				<ownedMember xmi:id="AAAAAAF4HcBLm1bv+Xw=" visibility="public" xmi:type="uml:Association" isDerived="false">
@@ -39,6 +39,7 @@
 				<generalization xmi:id="AAAAAAF4HcBcJldN5Cw=" visibility="public" xmi:type="uml:Generalization" specific="AAAAAAF4Hb/xtlY1Nuw=" general="AAAAAAF4HcAva1asu8I="/>
 			</packagedElement>
 			<packagedElement xmi:id="AAAAAAF4HcAva1asu8I=" name="Vend" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:UseCase"/>
+			<packagedElement xmi:id="AAAAAAF4HcNDSFeRK3Q=" name="Leon" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Actor"/>
 		</packagedElement>
 		<packagedElement xmi:id="AAAAAAFFxl6EZT9Ufwg=" name="Logical%20View" visibility="public" xmi:type="uml:Model">
 			<packagedElement xmi:id="AAAAAAF4Hb85V1TcG7g=" name="TestFred01" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false">
