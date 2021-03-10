@@ -19,9 +19,9 @@
       <COMP relation="OwnedElement">
         <COMPID name="Actor" mc="Standard.Actor" uid="906ae8ca-4f93-4536-9916-0c102600fb22"/>
         <COMPID name="Actor1" mc="Standard.Actor" uid="2f13cdf5-e494-41a3-8aa1-88464b92ddf3"/>
-        <COMPID name="Victor" mc="Standard.Actor" uid="7e21cfaf-46fd-4cbd-bc0c-7d7b35f43b7e"/>
         <COMPID name="Actor2" mc="Standard.Actor" uid="de220f8a-6563-4273-8178-fa04e315f506"/>
         <COMPID name="Achete un truc" mc="Standard.UseCase" uid="0601ddb0-af5f-45b2-97ac-76eeb2d58e56"/>
+        <COMPID name="Jacques" mc="Standard.Actor" uid="07d885ff-60c5-4cc8-9da1-6a3bd50d923d"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Diagramme de cas d'utilisation testuml" mc="Standard.UseCaseDiagram" uid="d900404e-120f-44d1-bb6e-e95daa0f01c7"/>
