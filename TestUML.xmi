@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.0" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+	<xmi:Documentation exporter="StarUML" exporterVersion="2.0"/>
+	<uml:Model xmi:id="AAAAAAF4HcCWfleI+yw=" xmi:type="uml:Model" name="RootModel">
+		<packagedElement xmi:id="AAAAAAFFxl38KT9O4MM=" name="Scenarios" visibility="public" xmi:type="uml:Model">
+			<packagedElement xmi:id="AAAAAAF4Hb/F6lXhLhI=" name="Vendeur" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Actor">
+				<ownedMember xmi:id="AAAAAAF4HcBLm1bv+Xw=" visibility="public" xmi:type="uml:Association" isDerived="false">
+					<ownedEnd xmi:id="AAAAAAF4HcBLm1bwNdI=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAF4Hb/F6lXhLhI=">
+						<xmi:Extension extender="StarUML">
+							<stereotype value=""/>
+						</xmi:Extension>
+					</ownedEnd>
+					<ownedEnd xmi:id="AAAAAAF4HcBLm1bxi/k=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAF4HcAva1asu8I=">
+						<xmi:Extension extender="StarUML">
+							<stereotype value=""/>
+						</xmi:Extension>
+					</ownedEnd>
+					<memberEnd xmi:idref="AAAAAAF4HcBLm1bwNdI="/>
+					<memberEnd xmi:idref="AAAAAAF4HcBLm1bxi/k="/>
+				</ownedMember>
+			</packagedElement>
+			<packagedElement xmi:id="AAAAAAF4Hb/cz1YLRHg=" name="Cliente" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Actor">
+				<ownedMember xmi:id="AAAAAAF4HcAWN1ZjbUw=" visibility="public" xmi:type="uml:Association" isDerived="false">
+					<ownedEnd xmi:id="AAAAAAF4HcAWN1ZkQTM=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAF4Hb/cz1YLRHg=">
+						<xmi:Extension extender="StarUML">
+							<stereotype value=""/>
+						</xmi:Extension>
+					</ownedEnd>
+					<ownedEnd xmi:id="AAAAAAF4HcAWN1ZlFlU=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAF4Hb/xtlY1Nuw=">
+						<xmi:Extension extender="StarUML">
+							<stereotype value=""/>
+						</xmi:Extension>
+					</ownedEnd>
+					<memberEnd xmi:idref="AAAAAAF4HcAWN1ZkQTM="/>
+					<memberEnd xmi:idref="AAAAAAF4HcAWN1ZlFlU="/>
+				</ownedMember>
+			</packagedElement>
+			<packagedElement xmi:id="AAAAAAF4Hb/xtlY1Nuw=" name="Achete" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:UseCase">
+				<generalization xmi:id="AAAAAAF4HcBcJldN5Cw=" visibility="public" xmi:type="uml:Generalization" specific="AAAAAAF4Hb/xtlY1Nuw=" general="AAAAAAF4HcAva1asu8I="/>
+			</packagedElement>
+			<packagedElement xmi:id="AAAAAAF4HcAva1asu8I=" name="Vend" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:UseCase"/>
+		</packagedElement>
+		<packagedElement xmi:id="AAAAAAFFxl6EZT9Ufwg=" name="Logical%20View" visibility="public" xmi:type="uml:Model">
+			<packagedElement xmi:id="AAAAAAF4Hb85V1TcG7g=" name="TestFred01" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false">
+				<ownedMember xmi:id="AAAAAAF4Hb9sj1UwZbI=" visibility="public" xmi:type="uml:Association" isDerived="false">
+					<ownedEnd xmi:id="AAAAAAF4Hb9skFUxhuc=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAF4Hb85V1TcG7g=">
+						<xmi:Extension extender="StarUML">
+							<stereotype value=""/>
+						</xmi:Extension>
+					</ownedEnd>
+					<ownedEnd xmi:id="AAAAAAF4Hb9skFUyp7Q=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAF4Hb85V1TcG7g=">
+						<xmi:Extension extender="StarUML">
+							<stereotype value=""/>
+						</xmi:Extension>
+					</ownedEnd>
+					<memberEnd xmi:idref="AAAAAAF4Hb9skFUxhuc="/>
+					<memberEnd xmi:idref="AAAAAAF4Hb9skFUyp7Q="/>
+				</ownedMember>
+				<ownedMember xmi:id="AAAAAAF4Hb+O31WUYtc=" name="Choisir" visibility="public" xmi:type="uml:Association" isDerived="false">
+					<ownedEnd xmi:id="AAAAAAF4Hb+O31WVYCI=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAF4Hb85V1TcG7g=">
+						<xmi:Extension extender="StarUML">
+							<stereotype value=""/>
+						</xmi:Extension>
+					</ownedEnd>
+					<ownedEnd xmi:id="AAAAAAF4Hb+O31WWyO0=" visibility="public" isStatic="false" isLeaf="false" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false" type="AAAAAAF4Hb9TGFUGCeg=">
+						<xmi:Extension extender="StarUML">
+							<stereotype value=""/>
+						</xmi:Extension>
+					</ownedEnd>
+					<memberEnd xmi:idref="AAAAAAF4Hb+O31WVYCI="/>
+					<memberEnd xmi:idref="AAAAAAF4Hb+O31WWyO0="/>
+				</ownedMember>
+			</packagedElement>
+			<packagedElement xmi:id="AAAAAAF4Hb9TGFUGCeg=" name="Test%20Fred%2002" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false"/>
+		</packagedElement>
+		<packagedElement xmi:id="AAAAAAFFxl6vKz9YEJg=" name="Development%20View" visibility="public" xmi:type="uml:Model"/>
+		<packagedElement xmi:id="AAAAAAFFxl7i2j9c8Us=" name="Process%20View" visibility="public" xmi:type="uml:Model"/>
+		<packagedElement xmi:id="AAAAAAFFxl8NcT9gE1g=" name="Physical%20View" visibility="public" xmi:type="uml:Model"/>
+	</uml:Model>
+</xmi:XMI>
