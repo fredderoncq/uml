@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_g2sdEIHeEeutwvDO-Hrptw" name="isback">
+  <eAnnotations xmi:id="_g2sdEYHeEeutwvDO-Hrptw" source="Objing">
+    <contents xmi:type="uml:Property" xmi:id="_g2sdEoHeEeutwvDO-Hrptw" name="exporterVersion">
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_g2sdE4HeEeutwvDO-Hrptw" value="3.0.0"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_g2sdFIHeEeutwvDO-Hrptw" name="Vendeur">
+    <ownedComment xmi:id="_g2sdFYHeEeutwvDO-Hrptw">
+      <body>&lt;Saisir le texte de la note ici></body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_g2sdFoHeEeutwvDO-Hrptw" memberEnd="_g2sdF4HeEeutwvDO-Hrptw _g2sdGYHeEeutwvDO-Hrptw" navigableOwnedEnd="_g2sdF4HeEeutwvDO-Hrptw">
+    <ownedEnd xmi:id="_g2sdF4HeEeutwvDO-Hrptw" visibility="public" type="_g2sdIYHeEeutwvDO-Hrptw" isUnique="false" association="_g2sdFoHeEeutwvDO-Hrptw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_g2sdGIHeEeutwvDO-Hrptw"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_g2sdGYHeEeutwvDO-Hrptw" visibility="public" type="_g2sdFIHeEeutwvDO-Hrptw" isUnique="false" association="_g2sdFoHeEeutwvDO-Hrptw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_g2sdGoHeEeutwvDO-Hrptw"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_g2sdG4HeEeutwvDO-Hrptw" memberEnd="_g2sdHIHeEeutwvDO-Hrptw _g2sdH4HeEeutwvDO-Hrptw" navigableOwnedEnd="_g2sdHIHeEeutwvDO-Hrptw">
+    <ownedEnd xmi:id="_g2sdHIHeEeutwvDO-Hrptw" visibility="public" type="_g2sdLYHeEeutwvDO-Hrptw" isUnique="false" association="_g2sdG4HeEeutwvDO-Hrptw">
+      <ownedComment xmi:id="_g2sdHYHeEeutwvDO-Hrptw">
+        <body>Choisir les critères </body>
+      </ownedComment>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_g2sdHoHeEeutwvDO-Hrptw"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_g2sdH4HeEeutwvDO-Hrptw" visibility="public" type="_g2sdFIHeEeutwvDO-Hrptw" isUnique="false" association="_g2sdG4HeEeutwvDO-Hrptw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_g2sdIIHeEeutwvDO-Hrptw"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_g2sdIYHeEeutwvDO-Hrptw" name="Choisir un fichier prix">
+    <ownedComment xmi:id="_g2sdIoHeEeutwvDO-Hrptw">
+      <body>Permet de choisir un ou plusieurs fichiers prix à réétiqueter</body>
+    </ownedComment>
+    <ownedComment xmi:id="_g2sdI4HeEeutwvDO-Hrptw">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_g2sdJIHeEeutwvDO-Hrptw">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_g2sdJYHeEeutwvDO-Hrptw">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_g2sdJoHeEeutwvDO-Hrptw">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_g2sdJ4HeEeutwvDO-Hrptw">
+      <body>...</body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_g2sdKIHeEeutwvDO-Hrptw" memberEnd="_g2sdKYHeEeutwvDO-Hrptw _g2sdK4HeEeutwvDO-Hrptw" navigableOwnedEnd="_g2sdKYHeEeutwvDO-Hrptw">
+    <ownedEnd xmi:id="_g2sdKYHeEeutwvDO-Hrptw" visibility="public" type="_g2sdOYHeEeutwvDO-Hrptw" isUnique="false" association="_g2sdKIHeEeutwvDO-Hrptw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_g2sdKoHeEeutwvDO-Hrptw"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_g2sdK4HeEeutwvDO-Hrptw" visibility="public" type="_g2sdIYHeEeutwvDO-Hrptw" isUnique="false" association="_g2sdKIHeEeutwvDO-Hrptw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_g2sdLIHeEeutwvDO-Hrptw"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_g2sdLYHeEeutwvDO-Hrptw" name="Choisir un ensemble de prix">
+    <ownedComment xmi:id="_g2sdLoHeEeutwvDO-Hrptw">
+      <body>Permet de choisir un type de prix et une date pour réétiqueter les articles à cette date-là</body>
+    </ownedComment>
+    <ownedComment xmi:id="_g2sdL4HeEeutwvDO-Hrptw">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_g2sdMIHeEeutwvDO-Hrptw">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_g2sdMYHeEeutwvDO-Hrptw">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_g2sdMoHeEeutwvDO-Hrptw">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_g2sdM4HeEeutwvDO-Hrptw">
+      <body>...</body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_g2sdNIHeEeutwvDO-Hrptw" memberEnd="_g2sdNYHeEeutwvDO-Hrptw _g2sdN4HeEeutwvDO-Hrptw" navigableOwnedEnd="_g2sdNYHeEeutwvDO-Hrptw">
+    <ownedEnd xmi:id="_g2sdNYHeEeutwvDO-Hrptw" visibility="public" type="_g2sdOYHeEeutwvDO-Hrptw" isUnique="false" association="_g2sdNIHeEeutwvDO-Hrptw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_g2sdNoHeEeutwvDO-Hrptw"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_g2sdN4HeEeutwvDO-Hrptw" visibility="public" type="_g2sdLYHeEeutwvDO-Hrptw" isUnique="false" association="_g2sdNIHeEeutwvDO-Hrptw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_g2sdOIHeEeutwvDO-Hrptw"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_g2sdOYHeEeutwvDO-Hrptw" name="Etiqueter un produit">
+    <ownedComment xmi:id="_g2sdOoHeEeutwvDO-Hrptw">
+      <body>Permet de réétiqueter un produit selon les critères sélectionnés</body>
+    </ownedComment>
+    <ownedComment xmi:id="_g2sdO4HeEeutwvDO-Hrptw">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_g2sdPIHeEeutwvDO-Hrptw">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_g2sdPYHeEeutwvDO-Hrptw">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_g2sdPoHeEeutwvDO-Hrptw">
+      <body>...</body>
+    </ownedComment>
+    <ownedComment xmi:id="_g2sdP4HeEeutwvDO-Hrptw">
+      <body>...</body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_g2sdQIHeEeutwvDO-Hrptw" name="Activity">
+    <nestedClassifier xmi:type="uml:Collaboration" xmi:id="_g2sdQYHeEeutwvDO-Hrptw" name="locals"/>
+  </packagedElement>
+</uml:Model>
