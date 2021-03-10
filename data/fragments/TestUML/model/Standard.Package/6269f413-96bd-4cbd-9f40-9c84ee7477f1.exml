@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="testuml" version="4">
+  <OBJECT>
+    <ID name="testuml" mc="Standard.Package" uid="6269f413-96bd-4cbd-9f40-9c84ee7477f1"/>
+    <PID name="TestUML" mc="Standard.Project" uid="c4ea0db5-6759-4199-ae88-16a567bd5847"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[testuml]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Communication Interaction" mc="Standard.CommunicationInteraction" uid="4c5bb065-0b21-44ed-8edf-867de3f1ea34"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Actor" mc="Standard.Actor" uid="906ae8ca-4f93-4536-9916-0c102600fb22"/>
+        <COMPID name="Actor1" mc="Standard.Actor" uid="2f13cdf5-e494-41a3-8aa1-88464b92ddf3"/>
+        <COMPID name="Victor" mc="Standard.Actor" uid="7e21cfaf-46fd-4cbd-bc0c-7d7b35f43b7e"/>
+        <COMPID name="Actor2" mc="Standard.Actor" uid="de220f8a-6563-4273-8178-fa04e315f506"/>
+        <COMPID name="Achete un truc" mc="Standard.UseCase" uid="0601ddb0-af5f-45b2-97ac-76eeb2d58e56"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de cas d'utilisation testuml" mc="Standard.UseCaseDiagram" uid="d900404e-120f-44d1-bb6e-e95daa0f01c7"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

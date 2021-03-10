@@ -1,0 +1,113 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Communication Interaction" version="4">
+  <OBJECT>
+    <ID name="Communication Interaction" mc="Standard.CommunicationInteraction" uid="4c5bb065-0b21-44ed-8edf-867de3f1ea34"/>
+    <PID name="testuml" mc="Standard.Package" uid="6269f413-96bd-4cbd-9f40-9c84ee7477f1"/>
+    <ATTRIBUTES>
+      <ATT name="IsReentrant">false</ATT>
+      <ATT name="Name"><![CDATA[Communication Interaction]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Owned">
+        <OBJECT>
+          <ID name="Communication Node" mc="Standard.CommunicationNode" uid="3bbb8b36-485f-4c44-bd39-4518a433ec56"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[Communication Node]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Started">
+              <OBJECT>
+                <ID name="CommunicationChannel" mc="Standard.CommunicationChannel" uid="dcc99056-9d88-402a-9bb8-de133b4015ce"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[CommunicationChannel]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="Communication Node1" mc="Standard.CommunicationNode" uid="ad0e5053-a484-42e5-91ec-58dc2e6ee8de"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Communication Node1" mc="Standard.CommunicationNode" uid="ad0e5053-a484-42e5-91ec-58dc2e6ee8de"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[Communication Node1]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Communication Node2" mc="Standard.CommunicationNode" uid="4efec546-5cf2-4327-8aa1-c06a090108fa"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[Communication Node2]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Started">
+              <OBJECT>
+                <ID name="CommunicationChannel" mc="Standard.CommunicationChannel" uid="399afd1f-47c3-4070-a38b-8efe4935f1da"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[CommunicationChannel]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="Communication Node" mc="Standard.CommunicationNode" uid="3bbb8b36-485f-4c44-bd39-4518a433ec56"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Communication Node3" mc="Standard.CommunicationNode" uid="345d121e-4398-4fc4-a2ac-3d5376d62a82"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[Communication Node3]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Communication Node4" mc="Standard.CommunicationNode" uid="e7a8210b-d81e-4d32-b7bc-d770ce3783ab"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[Communication Node4]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedCollaboration">
+        <OBJECT>
+          <ID name="locals" mc="Standard.Collaboration" uid="cf61f821-5af8-401a-9196-98ece48495d8"/>
+          <ATTRIBUTES>
+            <ATT name="IsConcurrent">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[locals]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de communication Communication Interaction" mc="Standard.CommunicationDiagram" uid="9f7a735f-ef99-46bc-8dbd-5aa53f8565b0"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
