@@ -46,7 +46,7 @@
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="Communication Node2" mc="Standard.CommunicationNode" uid="4efec546-5cf2-4327-8aa1-c06a090108fa"/>
+          <ID name="Communication Node2" mc="Standard.CommunicationNode" uid="3ea66dc9-8732-4bc5-a3cf-3e043c9d5e80"/>
           <ATTRIBUTES>
             <ATT name="Selector"></ATT>
             <ATT name="Name"><![CDATA[Communication Node2]]></ATT>
@@ -70,15 +70,6 @@
               </OBJECT>
             </COMP>
           </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="Communication Node3" mc="Standard.CommunicationNode" uid="345d121e-4398-4fc4-a2ac-3d5376d62a82"/>
-          <ATTRIBUTES>
-            <ATT name="Selector"></ATT>
-            <ATT name="Name"><![CDATA[Communication Node3]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
           <ID name="Communication Node4" mc="Standard.CommunicationNode" uid="e7a8210b-d81e-4d32-b7bc-d770ce3783ab"/>
